@@ -1,0 +1,56 @@
+C:\Users\NGUYENTHAO\Desktop\systeminfo\systeminfo\bin\Debug\systeminfo.exe.config
+C:\Users\NGUYENTHAO\Desktop\systeminfo\systeminfo\bin\Debug\systeminfo.exe
+C:\Users\NGUYENTHAO\Desktop\systeminfo\systeminfo\bin\Debug\systeminfo.pdb
+C:\Users\NGUYENTHAO\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.csprojAssemblyReference.cache
+C:\Users\NGUYENTHAO\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.Form1.resources
+C:\Users\NGUYENTHAO\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.Properties.Resources.resources
+C:\Users\NGUYENTHAO\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.csproj.GenerateResource.cache
+C:\Users\NGUYENTHAO\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.csproj.CoreCompileInputs.cache
+C:\Users\NGUYENTHAO\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.exe
+C:\Users\NGUYENTHAO\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.pdb
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\bin\Debug\systeminfo.exe.config
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\bin\Debug\systeminfo.exe
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\bin\Debug\systeminfo.pdb
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.csproj.AssemblyReference.cache
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.Form1.resources
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.Properties.Resources.resources
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.csproj.GenerateResource.cache
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.exe
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.pdb
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\obj\Debug\systeminfo.SSDUpdate.resources
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\systeminfo\obj\Debug\systeminfo.csproj.AssemblyReference.cache
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\systeminfo\obj\Debug\systeminfo.Form1.resources
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\systeminfo\obj\Debug\systeminfo.Properties.Resources.resources
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\systeminfo\obj\Debug\systeminfo.SSDUpdate.resources
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\systeminfo\obj\Debug\systeminfo.csproj.GenerateResource.cache
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\systeminfo\obj\Debug\systeminfo.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\systeminfo\obj\Debug\systeminfo.exe
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\systeminfo\obj\Debug\systeminfo.pdb
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\systeminfo\bin\Debug\systeminfo.exe.config
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\systeminfo\bin\Debug\systeminfo.exe
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\systeminfo\bin\Debug\systeminfo.pdb
+C:\Users\Hoang Hoi\Desktop\systeminfo\systeminfo\systeminfo\obj\Debug\systeminfo.RamUpdate.resources
+D:\downloads\systeminfo\systeminfo\bin\Debug\systeminfo.exe.config
+D:\downloads\systeminfo\systeminfo\bin\Debug\systeminfo.exe
+D:\downloads\systeminfo\systeminfo\bin\Debug\systeminfo.pdb
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.Properties.Resources.resources
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.RamUpdate.resources
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.SSDUpdate.resources
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.csproj.GenerateResource.cache
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.csproj.CoreCompileInputs.cache
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.exe
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.pdb
+D:\downloads\systeminfo\systeminfo\bin\Debug\systeminfo.exe.manifest
+D:\downloads\systeminfo\systeminfo\bin\Debug\systeminfo.application
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.exe.manifest
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.application
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.csproj.AssemblyReference.cache
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.LoginForm.resources
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.FistForm.resources
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.mainForm.resources
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.UpdateAdmin.resources
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.UpdateRAMMAD.resources
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.UpdateLAPAD.resources
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.UpdateSSDAD.resources
+D:\downloads\systeminfo\systeminfo\obj\Debug\systeminfo.selectForm.resources

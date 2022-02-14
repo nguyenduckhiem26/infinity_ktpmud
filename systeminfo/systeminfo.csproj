@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B7AA147A-D58D-4F87-AF15-E631C08BE606}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>systeminfo</RootNamespace>
+    <AssemblyName>systeminfo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>BF540E4F857923D80A4B41F924FD1EE858BF961D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>systeminfo_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ConnectDB.cs" />
+    <Compile Include="mainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirstForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirstForm.Designer.cs">
+      <DependentUpon>FirstForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HardwareInfo.cs" />
+    <Compile Include="pm_ban_lkDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pm_ban_lkDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RamUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RamUpdate.Designer.cs">
+      <DependentUpon>RamUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectForm.Designer.cs">
+      <DependentUpon>selectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SSDUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SSDUpdate.Designer.cs">
+      <DependentUpon>SSDUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateAdmin.Designer.cs">
+      <DependentUpon>UpdateAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateRAMMAD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateRAMMAD.Designer.cs">
+      <DependentUpon>UpdateRAMMAD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateLAPAD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateLAPAD.Designer.cs">
+      <DependentUpon>UpdateLAPAD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSSDAD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateSSDAD.Designer.cs">
+      <DependentUpon>UpdateSSDAD.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstForm.resx">
+      <DependentUpon>FirstForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RamUpdate.resx">
+      <DependentUpon>RamUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selectForm.resx">
+      <DependentUpon>selectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SSDUpdate.resx">
+      <DependentUpon>SSDUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateAdmin.resx">
+      <DependentUpon>UpdateAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateRAMMAD.resx">
+      <DependentUpon>UpdateRAMMAD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateLAPAD.resx">
+      <DependentUpon>UpdateLAPAD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSSDAD.resx">
+      <DependentUpon>UpdateSSDAD.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="pm_ban_lkDataSet.xsc">
+      <DependentUpon>pm_ban_lkDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pm_ban_lkDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pm_ban_lkDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pm_ban_lkDataSet.xss">
+      <DependentUpon>pm_ban_lkDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\icon-tu-van.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\MicrosoftTeams-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\istockphoto-1139495386-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\Screenshot 2021-11-30 170556.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\tải xuống %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\tải xuống.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

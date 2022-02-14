@@ -1,0 +1,16 @@
+D:\downloads\systeminfo\systeminfo\bin\Release\systeminfo.exe.config
+D:\downloads\systeminfo\systeminfo\bin\Release\systeminfo.exe.manifest
+D:\downloads\systeminfo\systeminfo\bin\Release\systeminfo.application
+D:\downloads\systeminfo\systeminfo\bin\Release\systeminfo.exe
+D:\downloads\systeminfo\systeminfo\bin\Release\systeminfo.pdb
+D:\downloads\systeminfo\systeminfo\obj\Release\systeminfo.Form1.resources
+D:\downloads\systeminfo\systeminfo\obj\Release\systeminfo.Properties.Resources.resources
+D:\downloads\systeminfo\systeminfo\obj\Release\systeminfo.RamUpdate.resources
+D:\downloads\systeminfo\systeminfo\obj\Release\systeminfo.SSDUpdate.resources
+D:\downloads\systeminfo\systeminfo\obj\Release\systeminfo.csproj.GenerateResource.cache
+D:\downloads\systeminfo\systeminfo\obj\Release\systeminfo.csproj.CoreCompileInputs.cache
+D:\downloads\systeminfo\systeminfo\obj\Release\systeminfo.exe.manifest
+D:\downloads\systeminfo\systeminfo\obj\Release\systeminfo.application
+D:\downloads\systeminfo\systeminfo\obj\Release\systeminfo.exe
+D:\downloads\systeminfo\systeminfo\obj\Release\systeminfo.pdb
+D:\downloads\systeminfo\systeminfo\obj\Release\systeminfo.csproj.AssemblyReference.cache
